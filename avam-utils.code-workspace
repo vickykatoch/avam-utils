@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "avam-bg-services"
+		},
+		{
+			"path": "avam-ammo"
+		},
+		{
+			"path": "avam-server"
+		}
+	],
+	"settings": {}
+}
