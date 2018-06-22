@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.ts',
   mode: 'development',
+  devtool: "source-map",
   module: {
     rules: [
       {
@@ -13,10 +14,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ]
+    extensions: ['.tsx', '.ts', '.js']
   },
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: 'index.js',
+    path: path.resolve(__dirname, '../avam-ammo/node_modules/avam-bg-services/')
   }
 };

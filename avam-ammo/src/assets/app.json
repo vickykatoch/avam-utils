@@ -1,0 +1,28 @@
+{
+    "startup_app": {
+        "name": "OpenfinExplorer",
+        "url": "http://localhost:4200",
+        "uuid": "OpenfinExplorer",
+        "applicationIcon": "http://localhost:4200/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": true,
+        "defaultTop": 50,
+        "defaultLeft": 10,
+        "defaultWidth": 800,
+        "maxWidth": 800,
+        "minWidth": 800,
+        "maxHeight": 500,
+        "defaultHeight": 500,
+        "minHeight": 500
+    },
+    "runtime": {
+        "arguments": "--remote-debugging-port=9090 --v=2",
+        "version": "community"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin Explorer",
+        "icon": "http://localhost:8081/favicon.ico",
+        "name": "Openfin Explorer"
+    }
+}

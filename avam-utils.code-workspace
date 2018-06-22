@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "avam-server"
+		},
+		{
+			"path": "avam-logger"
 		}
 	],
 	"settings": {}

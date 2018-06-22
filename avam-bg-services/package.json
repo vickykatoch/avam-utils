@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.dev.config.js",
+    "dev": "webpack --config webpack.dev.config.js",
+    "prod": "webpack --config webpack.prod.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,12 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "@types/socket.io-client": "^1.4.32",
+    "jest": "^23.1.0",
     "ts-loader": "^4.4.1",
     "typescript": "^2.9.2",
     "webpack": "^4.12.0",
     "webpack-command": "^0.2.1"
   },
   "dependencies": {
-    "socket.io-client": "^2.1.1"
+    "lodash-es": "4.17.10",
+    "socket.io-client": "2.1.1"
   }
 }
